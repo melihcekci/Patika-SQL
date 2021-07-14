@@ -61,8 +61,8 @@ insert into employee (id, name, birthday, email) values (50, 'Trixy', '1930-09-2
 UPDATE employee	SET name='Harry' WHERE name='Hedwig';
 UPDATE employee	SET email='123@gmail.com' WHERE birthday<'1920-12-30';
 UPDATE employee	SET birthday='2020-01-01' WHERE birthday>'2010-12-30';
-UPDATE employee	SET name='Roger',	birthday='1981-08-08', email='roger.com' WHERE id=13;
-UPDATE employee	SET name='Steph',	birthday='1988-03-14', email='steph.com' WHERE id=28;
+UPDATE employee	SET name='Roger', birthday='1981-08-08', email='roger.com' WHERE id=13;
+UPDATE employee	SET name='Steph', birthday='1988-03-14', email='steph.com' WHERE id=28;
 
 --Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
 DELETE FROM employee WHERE birthday<'1929-12-30';
